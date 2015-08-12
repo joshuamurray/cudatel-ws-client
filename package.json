@@ -1,6 +1,6 @@
 {
   "name": "cudatel-ws-client",
-  "version": "1.1.2",
+  "version": "1.1.6",
   "description": "Server side client for connecting to a \"CudaTel\" PBX Server and retrieve data in real-time.",
   "main": "index.js",
   "scripts": {
