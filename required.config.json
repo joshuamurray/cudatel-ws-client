@@ -1,0 +1,22 @@
+{
+  "def_env": "<Default Environment ie: local OR remote >",
+  "local": {
+    "host": "<Local CudaTel Address/IP>",
+    "def_user": {
+      "user": "<CudaTel Username>",
+      "pass": "<CudaTel Password>"
+    }
+  },
+  "remote": {
+    "host": "<Remote CudaTel Address/IP>",
+    "def_user": {
+      "user": "<CudaTel Username>",
+      "pass": "<CudaTel Password>"
+    }
+  },
+  "sets":{
+    "boot": [ "livetable_live_calls__", "< MONITORED CHANNEL >" ],
+    "join": [ "admin", "user_5041", "meteor_alive", "< REQUIRED CHANNEL >" ],
+    "skip": [ "call_event", "call_update", "queue_status", "system_restart", "presence_event", "channel_hangup", "channel_callstate", "conference_status", "< UNUSED CHANNEL >" ]
+  }
+}
