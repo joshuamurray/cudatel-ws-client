@@ -22,6 +22,7 @@
   "homepage": "https://github.com/joshuamurray/cudatel-ws-client",
   "dependencies": {
     "cudatel-ajax": "^1.1.1",
-    "storage.json": "^1.0.1"
+    "storage.json": "^1.0.2",
+    "ws": "^0.7.2"
   }
 }
